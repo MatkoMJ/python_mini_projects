@@ -1,0 +1,20 @@
+
+print("Hello and welcome to registration form! Note that this event is only for 18 to 25 y.o. ")
+
+print(" ")
+
+age=int(input("What is your age? "))
+
+if age >= 18 and age <= 25:
+    print("You are good to go! ")
+else:
+    print("Sorry you are not allowed")
+    quit()
+
+name=input("Type your name: ")
+surname=input("Type your surname: ")
+
+
+print("Welcome" + " "+ name + " "+ surname)
+
+#To be continued... Need to add random ID for every registred user
